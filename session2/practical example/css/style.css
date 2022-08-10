@@ -1,0 +1,74 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+a {
+  text-decoration: none; /*to remove the default underline */
+  color: #000;
+}
+body {
+  font-family: arial;
+}
+
+.hero {
+  height: 100vh;
+  background-color: #fff;
+}
+.header {
+  padding: 28px 64px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.menu {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+.btn {
+  padding: 10px 26px;
+  cursor: pointer;
+}
+.btn-secondary {
+  border: 1.5px solid rgba(98, 60, 234, 1);
+  color: rgba(98, 60, 234, 1);
+  background-color: white;
+}
+.btn-primary {
+  border: 1.5px solid rgba(98, 60, 234, 1);
+  background: rgba(98, 60, 234, 1);
+  color: white;
+  font-weight: bold;
+}
+
+.main-hero {
+  padding: 0px 64px;
+  display: flex;
+  align-items: center;
+}
+
+.hero-img {
+  height: 500px;
+  width: 500px;
+  object-fit: cover;
+}
+.left-main-hero {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+.left-main-hero h1 {
+  font-size: 48px;
+  font-weight: 600;
+}
+.left-main-hero p {
+  font-size: 24px;
+  font-weight: 500;
+}
+
+.btn-hero {
+  padding: 19px;
+  cursor: pointer;
+}
