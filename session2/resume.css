@@ -1,0 +1,56 @@
+/* 
+On this session, we discovered the follwing points on CSS::after
+    -CSS Flexbox
+    -Responsive
+    -CSS units
+    -CSS variables
+*/
+
+/* ======================= CSS Flexbox ======================= */
+/* Flexbox is a complex topic, I highly recommend to read the mentioned PDF as you will master it after reading it */
+
+/* ======================= Responsive =======================  */
+
+@media screen and (max-width: 400px) {
+  /* Apply the styles that CHANGES when screen width is LESS than 400px */
+}
+
+@media screen and (min-width: 400px) {
+  /* Apply the styles that CHANGES when screen width is MORE than 400px */
+}
+
+/* ======================= CSS Units =======================  */
+
+/* There are many css units like: px, pt, vh, vw, ch, rem, em */
+/* vh: viewport height  */ /*|| vw:  viewport width*/
+.container {
+  height: 100vh; /* the high will take the whole screen*/
+}
+/* rem: relative to the root element || em: relative to the parent */
+html {
+  font-size: 15px; /*default size is 16px*/
+}
+.title {
+  font-size: 3rem; /* 2rem <=> 45px*/
+}
+.caption {
+  font-size: 2rem; /* 2rem <=> 30px*/
+}
+
+.parent {
+  font-size: 2rem; /* <=> 30px*/
+}
+.parent .title2 {
+  /*title2 is a child of parent*/
+  font-size: 2em; /* <=> 60px */
+}
+
+/* ======================= CSS Variables =======================  */
+/*CSS variables are like an alias, we declare them inside the root element*/
+:root {
+  --colorVar: "#ff0055"; /*The name must start with --*/
+}
+
+.title {
+  color: var(--colorVar);
+}

@@ -1,0 +1,3 @@
+Link to Figma design: https://www.figma.com/file/bwjBGimCgI6BqbApmX3DeB/Hero-Section-Kits-(Community)?node-id=6%3A48
+
+I highly recommend solving challenges of Frontend Mentor, link: https://www.frontendmentor.io/challenges
