@@ -1,1 +1,7 @@
-Resources for tailwindcss? you just need their official documentation: https://tailwindcss.com/
+-The first thing you NEED TO DO: 
+    => Install nodejs
+    => locate your terminal inside session3-fixed folder
+    => run the command: npm install
+    => launch the tailwind compiler: npx tailwindcss -i ./src/input.css -o ./dist/output.css --watch
+
+-Resources for tailwindcss? you just need their official documentation: https://tailwindcss.com/
