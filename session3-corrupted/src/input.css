@@ -1,0 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.h{
+    @apply py-[10eader-buttons px] px-[26px] rounded
+}

@@ -1,0 +1,1 @@
+Resources for tailwindcss? you just need their official documentation: https://tailwindcss.com/
